@@ -27,3 +27,18 @@ while x != 0:
     x = int(input(f"Digite outro número: "))
 
 print(f"Você digitou {y} números e obteve um total de: {soma}")
+
+#Uso do FOR
+for i in range (0, 5):
+    print(i)
+
+num: int
+soma: int
+num = int(input("Quantos números serão digitados? "))
+soma = 0
+
+for i in range (0, num):
+    x = int(input("Digite um número: "))
+    soma = soma + x
+
+print("Soma = ", soma)
